@@ -1,6 +1,6 @@
 # Nexus Management System - Privacy Policy
 
-**Effective Date:** February 26, 2026  
+**Effective Date:** Jun 6, 2026  
 **Version:** 1.0 (Production Release)
 
 ### 1. Identity and Scope
