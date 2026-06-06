@@ -20,7 +20,7 @@ Nexus utilizes secure Google OAuth 2.0 to automate administrative workflows. By 
 To understand how Nexus protects your data and the terms governing its use, please review our official documentation:
 
 * [**Privacy Policy**](./privacy-policy) - Details our data handling, POPIA compliance, and Google API Limited Use disclosure.
-* [**Terms of Use**](./terms-of-use) - *Link coming soon* 
+* [**Terms of Use**](./terms-of-use) - Outlines the licensing agreement, client responsibilities, and liability protections. 
 
 ---
 
