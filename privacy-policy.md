@@ -15,7 +15,7 @@ The Software requests the following scopes to facilitate specific automated work
 
 * **Google Drive (`drive`):** Utilized to programmatically create the "Nexus System" folder structure and securely store related operational files. The Software only accesses and manages files it generates; it does not read, modify, or delete unrelated private files within the Client's Google Drive.
 * **Google Calendar (`calendar`):** Utilized to synchronize the Client's workspace by updating the calendar name to match the organization, scheduling internal events, and automatically dispatching event invitations to newly registered members.
-* **Google Forms (`forms.body`):** Utilized to dynamically create, update, and manage member registration forms, and to securely read submitted form data back into the Client's database.
+* **Google Forms (`forms.body`):** Utilized to dynamically create, update, and manage member registration forms, and to securely read submitted form data back into Nexus' Pending Registrations section.
 * **Gmail (`gmail.send`):** Utilized exclusively for outbound automated communications. This includes dispatching welcome messages to newly approved organizational members, as well as allowing system administrators to send automated diagnostic reports to the Developer for support purposes. It does not read, monitor, or modify the Client's inbox.
 
 ### 3. Architecture, Hosting Modalities, and Data Residency
