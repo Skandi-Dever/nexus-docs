@@ -1,6 +1,6 @@
 # Nexus Management System - Privacy Policy
 
-**Effective Date:** Jun 6, 2026  
+**Effective Date:** Jun 24, 2026  
 **Version:** 1.0 (Production Release)
 
 ### 1. Identity and Scope
@@ -8,8 +8,11 @@ This Privacy Policy governs the data processing practices of the Nexus Managemen
 
 Currently, the Software is owned, operated, and maintained by an independent developer ("the Developer"). This policy outlines the strict technical safeguards, data routing architectures, and API protocols implemented by the Developer to ensure the Client's data integrity, sovereignty, and privacy.
 
-### 2. Google API Disclosure (Limited Use)
-Nexus utilizes Google OAuth 2.0 to provide core organizational functionality. Our use and transfer of information received from Google APIs to any other app will strictly adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+### 2. Google API Data Usage, Sharing, and Disclosure
+
+Nexus respects your privacy and is committed to protecting your organizational data. All data accessed via your Google account is used strictly to provide the application's core organizational functionality. **We do not share, transfer, sell, or disclose your personal information or Google user data to any third-party companies, advertisers, brokers, or external entities.** To facilitate synchronization, cloud backups, and multi-user collaboration, certain operational data (such as internal event records, organization data, and necessary Google object identifiers like eventIDs, fileIDs, or formIDs) are securely transmitted to and stored on our protected virtual private servers (Nexus Cloud infrastructure). This data remains strictly within the secure Nexus ecosystem, is accessible only to authorized administrators within your organization, and is never sold, traded, or monetized. Authorized organization administrators retain the full right to export their data as reports at their own discretion.
+
+Our use and transfer of information received from Google APIs to any other app will strictly adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
 The Software requests the following scopes to facilitate specific automated workflows:
 
@@ -26,14 +29,14 @@ To maximize data sovereignty and accommodate varying security requirements, the 
 * **Modality B: Self-Hosted (On-Premise)**
   If the Client opts to self-host, all transactional data and PII inputted into the Software is routed directly to the Client's privately owned servers. In this modality, the Developer operates under a strict "Zero-Access" framework, retaining no physical, remote, or administrative access to the Client's databases. 
 * **Google Data Routing (Both Modalities):**
-  Regardless of the database hosting modality chosen, all data interacting with Google APIs (such as Drive files, Forms, and Calendar events) flows directly between the Client's local Software installation and their secure Google Workspace. This data bypasses the Developer's database infrastructure entirely.
+  Regardless of the database hosting modality chosen, the actual content of your Google Workspace (such as the raw Drive files, Form submissions, and email bodies) flows directly between the Client's local Software installation and Google's servers. While this raw content bypasses the Developer's database infrastructure entirely, minimal relational metadata (such as reference `eventIDs` or `fileIDs`) is synchronized with your chosen database modality to allow the Software to link local records to Google objects.
 
 ### 4. Privacy by Design & POPIA Compliance
 In accordance with the Protection of Personal Information Act (POPIA) of South Africa, the Software is engineered around the principles of privacy by design. Legal responsibilities are strictly delineated based on the Client’s chosen hosting modality:
 
 * **The Client (Responsible Party):** Regardless of the hosting modality, the Client retains full legal authority, ownership, and responsibility for the personal information of their organizational members. The Client is solely responsible for obtaining lawful consent to process this data and for responding to any Data Subject requests (e.g., requests to access, modify, or delete personal records). 
 * **The Developer (Operator):** In the **Nexus-Hosted** modality, the Developer acts as the Operator, providing the infrastructure to process data strictly within the automated parameters of the Software. The Developer will only process data as directed by the Client's use of the Software. In the **Self-Hosted** modality, the Developer does not act as an Operator, as no personal data is transmitted to or processed by the Developer's infrastructure.
-* **Decentralized Configuration:** To further minimize centralized risk, critical system pathing and Google resource identifiers are never uploaded to the cloud. They are stored strictly within a local `settings.json` manifest on the Client's authorized hardware.
+* **Decentralized Configuration:** To further minimize centralized risk, critical architectural data—such as root database connection URIs, highly sensitive Google OAuth access tokens, and core system pathing—are never uploaded to the cloud. They are stored strictly within a local `settings.json` manifest on the Client's authorized hardware. Only operational metadata necessary for cross-device synchronization (e.g., individual event or file reference IDs) is transmitted to the database.
 * **Data Subject Rights:** The Software provides the necessary administrative tools (CRUD operations) for the Client to seamlessly execute any member requests for data modification or deletion, ensuring the Client can fulfill their statutory POPIA obligations.
 
 ### 5. Security and Data Safeguards
