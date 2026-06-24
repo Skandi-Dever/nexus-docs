@@ -1,6 +1,6 @@
 # Nexus Management System - Terms of Use
 
-**Effective Date:** June 6, 2026  
+**Effective Date:** June 24, 2026  
 **Version:** 1.0 (Production Release)
 
 **Agreement Between:** The independent developer of the Nexus Management System ("the Service Provider") and the utilizing organization ("the Client").
@@ -33,6 +33,7 @@ Unlike standard software integrations, the Software authenticates Google Workspa
 ### 5. Data Privacy and Security
 * **Incorporation by Reference:** The collection, storage, processing, and security of all personal and organizational data inputted into the Software are governed by the official Nexus Management System Privacy Policy, which is hereby incorporated into these Terms of Use by reference.
 * **Data Ownership:** The Client retains absolute ownership and sovereign rights over all relational data, documents, and records managed through the Software. The Service Provider will not access, share, mine, or sell Client data under any circumstances.
+* **Google API Compliance:** The Service Provider guarantees that access to Google API data is strictly limited to the operational needs of the Software. In accordance with Google’s requirements, the Service Provider shall not use, transfer, or disclose Google user data for advertising, marketing, or any purpose unrelated to the Software’s core functionality.
 * **POPIA Acknowledgment:** Both parties contractually acknowledge their respective roles under the South African Protection of Personal Information Act (POPIA). The Client operates strictly as the "Responsible Party," and the Service Provider operates as an "Operator" solely when the Client selects the Nexus-Hosted modality.
 
 ### 6. Fees, Payments, and Service Suspension
