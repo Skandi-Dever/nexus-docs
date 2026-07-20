@@ -25,7 +25,7 @@ Nexus utilizes secure Google OAuth 2.0 to automate administrative workflows. By 
 
 To understand how Kernel 7 Group protects your data and the terms governing the use of the Nexus Engine, please review our official documentation:
 
-* [**Privacy Policy**](./privacy-policy) - Details our data handling, POPIA compliance, and Google API Limited Use disclosure.
+* [**Privacy Policy**](./privacy-policy) - Details our data handling, POPIA compliance, cross-border data policies, and Google API Limited Use disclosure.
 * [**Terms of Use**](./terms-of-use) - Outlines the general website and service usage terms, client responsibilities, and liability protections.
 * [**End User License Agreement (EULA)**](./eula) - Defines the permitted uses, restrictions, and intellectual property rights associated with the installed Nexus software.
 
