@@ -32,3 +32,7 @@ To understand how Nexus protects your data and the terms governing its use, plea
 ### Contact & Support
 Nexus is currently in its v1.0 Production Release. For technical assistance, licensing, or feedback, please contact:
 **Email:** skandiworker@gmail.com
+
+---
+
+&copy; 2026 Kernel 7 Group (Pty) Ltd. All rights reserved.
